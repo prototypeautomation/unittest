@@ -8,6 +8,6 @@ function test(arr) {
             "module.exports = {datasetEmail};"
 }
 
-fs.writeFile('../prototypeautomation/datasetPolis.js', test(arr), function (err) {
+fs.writeFile('datasetPolis.js', test(arr), function (err) {
   if (err) throw err;
 });
