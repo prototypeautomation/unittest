@@ -8,6 +8,6 @@ function test(arr) {
             "module.exports = {datasetEmail};"
 }
 
-fs.writeFile('datapolis.js', test(arr), function (err) {
+fs.writeFile('./datapolis.js', test(arr), function (err) {
   if (err) throw err;
 });
