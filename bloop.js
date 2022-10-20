@@ -1,6 +1,6 @@
 var fs = require('fs')
-const get = require('../helper/function')
-const arr = get.dataset
+// const get = require('../helper/function')
+const arr = ["tes","tes2","tes3"]
 
 
 function test(arr) {
